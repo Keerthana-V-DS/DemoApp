@@ -63,7 +63,7 @@ def main():
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True) 
     st.text("")
-    image = Image.open('streamlit_app/spaceship.jpg')
+    image = Image.open('spaceship.jpg')
 
     st.image(image, caption='Sunrise by the mountains')
     st.text("")
