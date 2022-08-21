@@ -5,10 +5,10 @@ import numpy as np
 from PIL import Image
  
 # loading the trained model
-pickle1_in = open('streamlit_app/titanic_spaceship_classifier2.pkl', 'rb') 
+pickle1_in = open('titanic_spaceship_classifier2.pkl', 'rb') 
 classifier = pickle.load(pickle1_in)
 
-pickle2_in = open('streamlit_app/titanic_spaceship_encoder1.pkl', 'rb') 
+pickle2_in = open('titanic_spaceship_encoder1.pkl', 'rb') 
 scaler = pickle.load(pickle2_in)
 
  
