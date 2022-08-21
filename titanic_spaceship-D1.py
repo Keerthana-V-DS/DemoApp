@@ -80,7 +80,7 @@ def main():
     Spa = st.number_input("Money spent on spa")
     VRDeck = st.number_input("Money spent on VRDeck")
     
-    passenger_name  = st.text_input("What's the passenger's name?", value = 'Sarah')
+    passenger_name  = st.text_input("What's the passenger's name?", value = 'Name')
     
     st.file_uploader('Upload your doc here.', accept_multiple_files=False)
     
